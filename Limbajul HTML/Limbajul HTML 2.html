@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lecția 1- Structura unui site web</title>
+		<link rel="stylesheet" type="text/css" href="style.css"
+	</head>
+
+	<body>
+		<div id="container">
+		
+		<div id="header"> <h1> Lecția 1- Structura unui site web </h1> </div>
+		
+		<div id="content">
+
+		<div id="main">
+		
+		<p>
+                        Inițialele <b> HTML </b> provin de la HyperText Markup Language. 
+                        HyperText se caracterizează prin faptul că un text, imagine, poate fi utilizat ca o referință către un alt document, mecanism prin care se face legatura cu mai multe documente sau cu același document HTML descrie formatul primar în care documentele sunt distribuite și văzute pe Web.
+                        HTML este diferit de celelalte limbaje de programare precum C++, Pascal, fiind format din etichete. Acum că te-am lamurit cum stă treaba cu un site, te vom învăța care este structura unui document HTML. Un document HTML este format din mai multe etichete (taguri). <br>
+
+               		<p><b>Etichetele</b> sunt de două tipuri:</p><br>
+                	<p><p>-pereche: <span style="color:mediumblue"><</span> <span style="color:brown">html</span> <span style="color:mediumblue">></span> <span style="color:mediumblue"><</span> <span style="color:brown">/html</span><span style="color:mediumblue">></span>; 
+				  <span style="color:mediumblue"><</span><span style="color:brown">head</span><span style="color:mediumblue">></span> <span style="color:mediumblue"><</span><span style="color:brown">/head</span><span style="color:mediumblue">></span>;				  
+				  <span style="color:mediumblue"><</span><span style="color:brown">body</span><span style="color:mediumblue">></span> <span style="color:mediumblue"><</span><span style="color:brown">/body</span><span style="color:mediumblue">></span>; etc.
+			</p></p><br>
+			<p><p>-singulare: <span style="color:mediumblue"><</span><span style="color:brown">br</span><span style="color:mediumblue">></span>; 
+				    	  <span style="color:mediumblue"><</span><span style="color:brown">hr</span><span style="color:mediumblue">></span>; etc.
+			</p></p><br>
+		<br>
+			Aceasta este <b>structura unui document HTML</b>: <br>
+			<img src="poza 2.1.jpg" width="60%" height="60%"><br><br>
+			Acum sa explicam fiecare eticheta:
+		</p>
+		<br>
+			<p><span style="color:mediumblue"><</span><span style="color:brown">html</span><span style="color:mediumblue">></span> -cu această etichetă începe orice document HTML. Astfel, îi spunem browser-ului că este vorba de un fișier HTML pentru a îl putea afișa. </p><br>
+			<p><span style="color:mediumblue"><</span><span style="color:brown">/html</span><span style="color:mediumblue">></span> -aceasta este eticheta de încheiere.</p><br><br>
+			<p><span style="color:mediumblue"><</span><span style="color:brown">head</span><span style="color:mediumblue">></span> -între aceste etichete se află eticheta <span style="color:mediumblue"><</span><span style="color:brown">title</span><span style="color:mediumblue">></span> <span style="color:mediumblue"><</span><span style="color:brown">style</span><span style="color:mediumblue">></span> și alte etichete specifice acestui tag. </p><br> 
+			<p><span style="color:mediumblue"><</span><span style="color:brown">/head</span><span style="color:mediumblue">></span> -aceasta este eticheta de încheiere. </p><br><br>
+			<p><span style="color:mediumblue"><</span><span style="color:brown">title</span><span style="color:mediumblue">></span> -între această etichetă se pune titlul documentului care va aparea in bara de titlu. </p><br>
+			<p><span style="color:mediumblue"><</span><span style="color:brown">/title</span><span style="color:mediumblue">></span> -aceasta este eticheta de încheiere. </p><br><br>
+			<p><span style="color:mediumblue"><</span><span style="color:brown">body</span><span style="color:mediumblue">></span> -tot ce vei scrie între acestă etichetă, va fi afișat in browser </p><br>
+			<p><span style="color:mediumblue"><</span><span style="color:brown">/body</span><span style="color:mediumblue">></span> -aceasta este eticheta de încheiere. </p><br><br>
+		
+			<p>Pentru a înțelege mai bine, gândește-te la documentul <b>HTML</b> ca la o pagină într-o carte. Cum iți dai seama că este o pagină dintr-o carte? Simplu, datorită formei, texturii, și informațiilor pe care le conține. Pentru ca internetul să iși poată da seama că un document este o pagină dintr-un site, trebuie ca respectivul document sa îndeplinească două condiții. Prima condiție este ca documentul să înceapă cu eticheta <span style="color:mediumblue"><</span><span style="color:brown">html</span><span style="color:mediumblue">></span> și să se încheie <span style="color:mediumblue"><</span><span style="color:brown">/html</span><span style="color:mediumblue">></span>. Cea de-a doua condiție este ca documentul să fie salvat cu extensia <b>".html"</b>.</p><br>
+			<p>Dar o pagină dintr-o carte mai are și o porțiune liberă urmată de titlu. În documentul <b>HTML</b>, porțiunea liberă este numită <b>Header</b>. Acest Header se introduce prin eticheta <span style="color:mediumblue"><</span><span style="color:brown">head</span><span style="color:mediumblue">></span>. Tot ce vei scrie între etichetele <span style="color:mediumblue"><</span><span style="color:brown">head</span><span style="color:mediumblue">></span> <span style="color:mediumblue"><</span><span style="color:brown">/head</span><span style="color:mediumblue">></span> <b>NU</b> va apărea pe pagină. Între aceste etichete se introduce eticheta <span style="color:mediumblue"><</span><span style="color:brown">title</span><span style="color:mediumblue">></span> care va da numele paginii respective.</p><br>
+			<p>Ce mai conține o pagină dintr-o carte? Conținutul. Pentru a introduce conținut într-un document <b>HTML</b>, trebuie să apelăm la eticheta <span style="color:mediumblue"><</span><span style="color:brown">body</span><span style="color:mediumblue">></span>.Tot ce vei scrie în această etichetă va apărea pe pagina site-ului. </p><br>
+
+
+
+
+		<div id="button">
+		<a href="Limbajul HTML 3.html">Începe lecția 2!</a>
+		</div>
+		<br>
+
+		
+		</div>
+		
+		<div id="nav">
+		
+		<ul>
+			<li class="selected"><a href="Limbajul HTML 1.html">Acasă </a></li>
+			<br>
+			<li><b>Capitolul 1 HTML</b></li> 
+			<li><p> <a href="Limbajul Html 2.html">HTML Lecția 1</a></p></li>
+			<li><p> <a href="Limbajul Html 3.html">HTML Lecția 2</a></p></li>
+			<li><p> <a href="Limbajul Html 5.html">HTML Lecția 3</a></p></li>
+			<br>
+			<li><b>Capitolul 2 CSS</b></li>
+			<li><p> <a href="Limbajul Html 4.html">CSS Lecția 1</a></p></li>
+			<br>
+			<li><b>Alte materiale video utile</b></li>
+			<li><p> <a href="https://youtu.be/fXfP2cu8bds">Un video despre HTML!</a></p></li>
+			<li><p> <a href="https://www.youtube.com/watch?v=oDUYqYC3YBo&t">Un video despre CSS!</a></p></li>
+			<br>
+			<li><b>Alte site-uri utile HTML</b></li>
+			<li><p> <a href="https://tutoriale-pe.net/tutorial-html-invata-in-10-minute/">Tutoriale-pe-net</a></p></li>
+			<li><p> <a href="https://www.w3schools.com/html/default.asp">w3Schools.com</a></p></li>
+			<li><p> <a href="https://www.agernic.com/ro/html/introducere.php">AgerNic.com</a></p></li>
+			<li><p> <a href="https://tutorialehtml.com/ro/introducere-in-html/">tutorialehtml.ro</a></p></li>
+			<li><p> <a href="https://marplo.net/html">marplo.com</a></p></li>
+			<br>
+			<li><b>Alte site-uri utile CSS</b></li>
+			<li><p> <a href="https://tutoriale-pe.net/tutorial-css-invata-in-10-minute/">Tutoriale-pe-net</a></p></li>
+			<li><p> <a href="https://www.w3schools.com/css/default.asp">w3Schools.com</a></p></li>
+			<li><p> <a href="https://marplo.net/css">marplo.com</a></p></li>
+
+
+		</ul>
+
+		</div>
+		</div>
+		<div id="footer">
+		Copyright - Atestat Informatică 2021 - Limbajul HTML
+		</div>		
+
+		</div>
+	</body>
+
+
+</html>

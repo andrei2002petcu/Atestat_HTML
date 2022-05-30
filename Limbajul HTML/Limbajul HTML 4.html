@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Limbajul CSS</title>
+		<link rel="stylesheet" type="text/css" href="style.css"
+	</head>
+
+	<body>
+		<div id="container">
+		
+		<div id="header"> <h1> Limbajul CSS </h1> </div>
+		
+		<div id="content">
+
+		<div id="main">
+		
+		<p>
+			<b>CSS</b> este limbajul ce adaugă stil paginii tale web – în el menționezi culorile, aranjezi elementele în pagină și în general tot ce ține de estetica site-ului este cuprins în fișiere CSS.
+
+			Pentru pagini web mai avansate aveți nevoie și de <b>Javascript</b> – acesta este un limbaj de programare ce adaugă funcționalități dinamice. Nu are nimic de-aface cu Java – Java nu este un limbaj ce trebuie sa îl știți pentru a programa un site web obișnuit.
+			
+		</p><br> <br>
+                 
+                 <p>  <b>Ce este CSS-ul? </b> <br>
+                  CSS-ul este un limbaj de stilizare al elementelor HTML, al tagurilor HTML. Denumirea CSS provine din expresia Cascading Style Sheets. În Web Design-ul modern, pentru stilizarea paginilor web se folosește numai CSS. Acest lucru înseamnă că de la culoarea literelor și a backgroundului până și la poziționarea elementelor de pe o pagină web, totul este stilizat prin CSS. Stilurile folosite pe o pagină pot fi incorporate în pagina respectivă sau pot fi chemate din fișiere externe, fișiere css.
+		  <br>  <br>
+
+                  <p> <b>Introducere în CSS – Tutorial CSS </b><br><br>
+                    Cum arată un stil CSS? <br>
+                   
+		<img src="poza 4.1.jpg" width="90%" height="90%" > <br> <br>
+                Acest stil definit mai sus, rezultă într-un stil care arată așa: <br>
+                 <div id="propozitia1">Acestui text i-a fost aplicat stilul de mai sus.</div>
+		<br>
+
+                <p>   <b>Unde definim stilurile CSS ? </b><br>
+                  Stilurile pentru o pagină pot fi definite în partea de <b>head</b> a documentului HTML, pot fi definite într-un fișier CSS extern, pe care putem chema tot din partea de <b>head</b> a paginii, sau putem aplica un stil diferit în partea <b>body</b> a fișierului HTML, la fiecare tag HTML în parte.
+                 <br> <br>
+                 <b>Stil CSS definit în head </b><br> <br>
+                 Exemplu: <br>
+                 <img src="poza 4.2.jpg" width="90%" height="90%" > <br> <br>
+                 <p> După cum vedeți stilurile se definesc în partea <b>head</b> a documentului cu ajutorul tagurilor <span style="color:mediumblue"><</span><span style="color:brown">style type=”text/css”</span><span style="color:mediumblue">></span> și <span style="color:mediumblue"><</span><span style="color:brown">/style</span><span style="color:mediumblue">></span>. În acest exemplu am definit cu css un stil pentru toate paragrafele din pagina respectivă, adăugând un stil la tagul <span style="color:mediumblue"><</span><span style="color:brown">p</span><span style="color:mediumblue">></span>.
+                     <br>
+                      Haideți să vedem cum am putea suprascrie în pagină un stil definit deja. <br> <br>
+                 <p> <b>Stil CSS în partea <b>body</b> ( CSS inline )</b> <br>
+                 În partea <b>body</b> a fișierului HTML, putem adăuga un stil diferit la fiecare tag HTML, ba chiar putem și suprascrie un stil definit în partea <b>head</b>.
+                 <br>  <br> Exemplu:  <br>
+                 <img src="Poza 4.3.jpg" width="90%" height="90%" > <br> <br>
+                  Rezultă în: <br>
+                 <div id="propozitia2">Paragraf care a fost stilizat în interiorul tagului p!</div> <br>
+                 În acest exemplu am folosit <b>CSS inline</b> pentru a adăuga un stil. Cu această metodă putem adăuga un stil cu CSS la orice tag HTML, și putem suprascrie stilul definit în partea head. Pentru a adăuga un stil diferit față de restul documentului, am folosit <b>atributul style</b> pentru a redefini, a adăuga stilul respectiv. Parametri ca și în cazul stilurilor definite în <b>head</b>, sunt separate prin (;) punct și virgulă.
+                 <br> 
+                 <b>Forma: tag-html style=”….” > </b> </p>
+                 <br> <br>
+                 <p>  <b>Definirea stilurilor cu un fișier extern</b> 
+                    Pentru a ține toate stilurile într-un fisier extern, tot ce trebuie să facem, este să definim stilurile într-un fișier cu extensia <b>css.</b> exemplu: <b>stiluri.css</b> pe care putem invoca, chema din partea de <b>head</b> a documentului.
+                    <br> <br> Exemplu: <br>
+                  <img src="Poza 4.4.jpg" width="90%" height="90%" > <br> <br> </p>
+                               
+		
+		</div>
+		
+		<div id="nav">
+		
+		<ul>
+			<li class="selected"><a href="Limbajul HTML 1.html">Acasă </a></li>
+			<br>
+			<li><b>Capitolul 1 HTML</b></li> 
+			<li><p> <a href="Limbajul Html 2.html">HTML Lecția 1</a></p></li>
+			<li><p> <a href="Limbajul Html 3.html">HTML Lecția 2</a></p></li>
+			<li><p> <a href="Limbajul Html 5.html">HTML Lecția 3</a></p></li>
+			<br>
+			<li><b>Capitolul 2 CSS</b></li>
+			<li><p> <a href="Limbajul Html 4.html">CSS Lecția 1</a></p></li>
+			<br>
+			<li><b>Alte materiale video utile</b></li>
+			<li><p> <a href="https://youtu.be/fXfP2cu8bds">Un video despre HTML!</a></p></li>
+			<li><p> <a href="https://www.youtube.com/watch?v=oDUYqYC3YBo&t">Un video despre CSS!</a></p></li>
+			<br>
+			<li><b>Alte site-uri utile HTML</b></li>
+			<li><p> <a href="https://tutoriale-pe.net/tutorial-html-invata-in-10-minute/">Tutoriale-pe-net</a></p></li>
+			<li><p> <a href="https://www.w3schools.com/html/default.asp">w3Schools.com</a></p></li>
+			<li><p> <a href="https://www.agernic.com/ro/html/introducere.php">AgerNic.com</a></p></li>
+			<li><p> <a href="https://tutorialehtml.com/ro/introducere-in-html/">tutorialehtml.ro</a></p></li>
+			<li><p> <a href="https://marplo.net/html">marplo.com</a></p></li>
+			<br>
+			<li><b>Alte site-uri utile CSS</b></li>
+			<li><p> <a href="https://tutoriale-pe.net/tutorial-css-invata-in-10-minute/">Tutoriale-pe-net</a></p></li>
+			<li><p> <a href="https://www.w3schools.com/css/default.asp">w3Schools.com</a></p></li>
+			<li><p> <a href="https://marplo.net/css">marplo.com</a></p></li>
+
+
+		</ul>
+
+		</div>
+		</div>
+
+		<div id="footer">
+		Copyright - Atestat Informatică 2021 - Limbajul HTML
+		</div>		
+
+		</div>
+	</body>
+
+
+</html>
